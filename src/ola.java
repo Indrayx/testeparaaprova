@@ -59,7 +59,25 @@ public class ola {
 		System.out.println("Pontos por escolaridade:"+ escolaridade);
 		System.out.println("Pontos por experiencia:"+ experiencia);
 					 
+		System.out.println("Voce esta habilitado para o(s) seguinte(s) cargo(s):");
 		
+		 
+		if(escolaridade <= 10) {
+			System.out.println("Infelismente seu perfil nao atende a empresa");
+			
+		}
+		else {
+			
+		
+		if(carteira == 's' && escolaridade > 10 ) {
+			 System.out.println("Assistente");}
+	   if(experiencia > 20 && escolaridade >= 30 ) {
+			 System.out.println("Gerente");
+		 }
+		  if (viagem ==  's'  && experiencia > 40 && escolaridade >= 30 ) {
+			 System.out.printf("Analista");
+		 }
+		  		 }
 		
 		
 		
