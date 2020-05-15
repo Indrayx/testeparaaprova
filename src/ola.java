@@ -55,6 +55,9 @@ public class ola {
 		viagem = sc.next().charAt(0);
 		System.out.print("Você tem carteira de motorista?(S/N)");
 		carteira = (sc.next().charAt(0));
+		
+		System.out.println("Pontos por escolaridade:"+ escolaridade);
+		System.out.println("Pontos por experiencia:"+ experiencia);
 					 
 		
 		
