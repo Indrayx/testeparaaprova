@@ -34,6 +34,28 @@ public class ola {
 			escolaridade = 0;
 			escolaridade = escolaridade + 40;
 			}
+		System.out.print("Voce tem quantos anos de experiencia profissional:");
+		experiencia = sc.nextInt();
+		if( experiencia == 0) {
+			experiencia = 0;
+			experiencia = experiencia + 0;}
+		else if( experiencia > 0 && experiencia <= 2) {
+			experiencia = 0;
+			experiencia = experiencia + 10;}	
+		else if( experiencia > 2 && experiencia <= 5  ) {
+			experiencia = 0;
+			experiencia = experiencia + 20;}
+		else {
+			experiencia = 0;
+			experiencia = experiencia + 40;
+		}
+		
+				
+		System.out.print("Você tem disponibilidade pra viajar:(S/N)");
+		viagem = sc.next().charAt(0);
+		System.out.print("Você tem carteira de motorista?(S/N)");
+		carteira = (sc.next().charAt(0));
+					 
 		
 		
 		
